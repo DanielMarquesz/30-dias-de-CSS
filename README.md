@@ -5,7 +5,6 @@ Desafio que visa a prática de HTML5 e CSS3, com mini projetos diários.
 ## Legenda :facepunch:
 
 * :tada: - Concluído.
-* :snail: - Em andamento.
 
 
 ### Algumas Regras :green_book:
