@@ -1,0 +1,16 @@
+
+
+button{
+    margin: 18rem 27rem;
+    width: 14%;
+    border: 1px solid #e4e2e2;
+    border-radius: .2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+button:hover {
+    background-color: #bdbcbc;
+    transition: 0.4s;
+}
