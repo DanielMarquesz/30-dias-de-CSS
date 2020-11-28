@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 241, 241);
+    font-family: Rubik, serif;    
+}
+
+.title{
+    margin-left: 1rem;
+}
+
+.slide-bar-hide {
+    margin-top: -10.5rem;    
+    background-color: brown;
+    transition: 0.7s;    
+}
+
+.slide-bar-hide h1 {
+    margin-left: 1rem;
+    padding-top: 2rem;  
+}
+
+
+.slide-bar-hide h3 {
+    margin-left: 1rem;
+    padding-bottom: 2rem;    
+}
+
+
+.show{
+    margin-top: -1.5rem;    
+    height: 100%;
+    background-color: rgb(68, 138, 51);
+    transition: 0.7s;
+    position: relative;   
+}
+
+
+.btn {
+    border-radius: 12%;
+    border: 1px solid rgb(255, 255, 255)daa;
+    background-color: rgb(142, 150, 218);
+    padding: .5rem 1rem .5rem 1rem;
+    margin-left: 1rem;
+    
+}
+
+.btn:hover{
+    background-color: rgb(68, 138, 51);
+    transition: 0.4s;
+}
