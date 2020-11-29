@@ -1,45 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(241, 241, 241);
-    font-family: Rubik, serif;    
-    
-}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+/* Fontes Awesome */
 
-.container {
-    position: relative;
-    width: 25%;
-    background-color: brown;
-    padding-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container .title{
-    
-    background-color: aqua;    
-    position: absolute;
-    padding: .2rem;
-    width: 100%;        
-    display: flex;
-    justify-content: center;
-}
-
-.container .items{
-    background-color: rgb(121, 117, 124);
-    line-height: 3rem;
-    margin-top: 16rem;  
-    display: flex;
-    position: absolute;
-
-    width: 100%;
-    justify-content: center;
-} 
 
 *{                          /* Setta uma configuração para todos os elementos da página */ 
     margin: 0;
@@ -47,3 +13,68 @@ body{
     list-style: none;
     text-decoration: none;
 }
+
+body{
+    margin: 0;
+    padding: 0;      
+    color: aliceblue;
+}
+
+.container h3{
+    background-color: gray;   
+    padding: 1.2rem .9rem 1.2rem .7rem;
+    background-color: rgb(73, 30, 30);
+    width: 20%;   
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: Rubik, serif;    
+}
+
+.items i{
+    padding-right: 1.5rem;
+    padding-left: 3rem;
+    color: aliceblue;
+}
+
+.container li {
+    color: aliceblue;
+    background-color: rgb(66, 63, 64);
+    font-family: Roboto;
+    border: .1rem groove rgb(83, 83, 83);   
+    padding: 1rem .8rem 1rem .6rem;
+    width: 20%;   
+    display: flex;
+    position: relative;
+}
+
+.container li:hover {    
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0px 10px 3px #222;
+    transition: 0.4s;
+}
+
+.container .social-medias{
+    color: aliceblue;
+    background-color: rgb(66, 63, 64);
+    border: .1rem groove rgb(83, 83, 83);   
+    padding: 1rem .8rem 4.6rem .6rem;
+    width: 20%;  
+    position: relative;
+    display: flex;    
+    justify-content: space-evenly;    
+}
+
+.container .social-medias i{
+    
+    color:aliceblue;
+    background-color:rgb(51, 49, 50);
+    font-size: 1.5rem;
+    padding: .4rem .6rem;
+    margin-top: 1rem;    
+    border: .1rem groove rgb(83, 83, 83);
+    border-radius: .3rem;
+}
+
+
