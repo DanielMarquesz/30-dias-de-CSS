@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 241, 241);
+    font-family: Rubik, serif;    
+    
+}
+
+.container {
+    position: relative;
+    width: 25%;
+    background-color: brown;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .title{
+    
+    background-color: aqua;    
+    position: absolute;
+    padding: .2rem;
+    width: 100%;        
+    display: flex;
+    justify-content: center;
+}
+
+.container .items{
+    background-color: rgb(121, 117, 124);
+    line-height: 3rem;
+    margin-top: 16rem;  
+    display: flex;
+    position: absolute;
+
+    width: 100%;
+    justify-content: center;
+} 
+
+*{                          /* Setta uma configuração para todos os elementos da página */ 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
