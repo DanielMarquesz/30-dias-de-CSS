@@ -7,22 +7,29 @@
         <script src="main.js"></script>
     </head>
 
-    <body>        
+    <body>  
+             
 
-        <div class="container">            
+        <div class="container" id="change-menu">         
+            
+                <div class="hamburguer" id="change-hamburguer" onclick="toggleMenu()">
+                    <div class="line" id="line1"></div>
+                    <div class="line" id="line2"></div>
+                    <div class="line" id="line3"></div>
+                </div>
 
                 <h3 class="title">30 dias de CSS</h3>
 
                 <div class="items">
                     <ul>
-                        <a href="#" class=""><li><i class="fas fa-home"></i>Início</li></a>
-                        <a href="#"><li><i class="fas fa-laptop-code"></i></i>Tecnologias</li></a>
-                        <a href="#"><li><i class="fas fa-sitemap"></i>Projetos</li></a>
-                        <a href="#"><li><i class="fas fa-envelope"></i>Contato</li></a>
-                        <a href="#"><li><i class="fas fa-smile-wink"></i>Perfil</li></a>  
-                        <a href="#"><li><i class="far fa-folder-open"></i>Histórico</li></a> 
-                        <a href="#"><li><i class="fas fa-dollar-sign"></i>Orçamento</li></a> 
-                        <a href="#"><li><i class="fas fa-map-marked"></i>Endereço</li></a>                       
+                        <li><i class="fas fa-home"></i><a href="#">Início</a></li>
+                        <li><i class="fas fa-laptop-code"></i><a href="#">Tecnologias</a></li>
+                        <li><i class="fas fa-sitemap"></i><a href="#">Projetos</a></li>
+                        <li><i class="fas fa-envelope"></i><a href="#">Contato</a></li>
+                        <li><i class="fas fa-smile-wink"></i><a href="#">Perfil</a></li>
+                        <li><i class="far fa-folder-open"></i><a href="#">Histórico</a></li>
+                        <li><i class="fas fa-dollar-sign"></i><a href="#">Orçamento</a></li>
+                        <li><i class="fas fa-map-marked"></i><a href="#">Endereço</a></li>                     
                     </ul>
                     <div class="social-medias">
                         <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>  
@@ -32,7 +39,7 @@
                     </div>
                 </div>            
 
-        </div>
-
+        </div>  
+              
     </body>
 </html>
