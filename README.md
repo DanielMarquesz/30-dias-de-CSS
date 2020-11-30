@@ -17,6 +17,7 @@ Desafio que visa a prática de HTML5 e CSS3, com mini projetos diários.
 
 * [DIA I - Botão com hover e Focus](https://github.com/DanielMarquesz/30-dias-de-CSS/tree/main/dia01)
 * [DIA II - Slide Down Toggle](https://github.com/DanielMarquesz/30-dias-de-CSS/tree/main/dia02)
+* [DIA III - Menu de navegação lateral](https://github.com/DanielMarquesz/30-dias-de-CSS/tree/main/dia03)
 
 
 ### Referências :raised_hands:
