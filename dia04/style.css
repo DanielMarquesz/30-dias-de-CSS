@@ -37,22 +37,24 @@ p{
 } 
 
 .links-changes {
+    color: rgb(20, 4, 4);
     background-color: #fff;
     padding: .1rem .6rem 2rem 6.8rem;
-    border: 1px solid black;         
+    /* border: 1px solid black;     */
+    display: flex;
+    justify-content: flex-end;   
 }
 
 .links-positions{
     margin-bottom: 5rem;
 }
 
-.help-rt{
-    display: flex;
-    align-content: space-around;
-    position: absolute;
+.links-changes div{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    color: rgb(20, 4, 4);
+    background-color: #fff;
 }
 
-.muda{
-    margin-left: 2.5rem;
-    text-align: ;
-}
